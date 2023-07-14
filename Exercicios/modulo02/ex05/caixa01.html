@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo e Caixas</title>
+    <style>
+        h1 { /*exemplo de box-level*/
+            /*Se quiser transformar um h1 em inline-level, basta mudar o display
+            se transformar em inline, perco algums propriedades como largura e etc...
+            Se quiser que seja um inline e ter as propriedades do box uso o comando abaixo: 
+            display: inline-box;
+            */
+            /*display: inline;*/
+
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+
+            /*
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkslategrey;
+            */
+            /*A simplificação abaixo, substitui os dados de cima*/
+            border: 10px solid darkslategray;
+
+            /*
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            */
+            /*A simplificação abaixo, substitui os dados de cima*/
+            /*Também pode ser representado da seguinte forma: 
+            padding: 10px; se colocar somente um valor, significa que todos os lados teram a mesma medida
+            padding: 10px 20px; se colocar duas medidas significa que o de cima e o debaixo terão medida 10 e esquerda e direita, terão medida 20.
+            */
+            padding: 10px 10px 10px 10px;
+
+            /*
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+            */
+            /*A simplificação abaixo, substitui os dados de cima*/
+            /*Caso queira que a caixa, em relação a margim, fiquem centralizadas, basta fazer o seguinte:
+            margin: 20px auto 40px auto
+            */
+            margin: 20px auto 40px auto;
+
+            /*
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+            */
+            /*A simplificação abaixo, substitui os dados acima*/
+            outline: 5px dashed salmon;
+
+        }
+
+        a { /*exemplo de inline-level*/
+            /*Se quiser transformar um h1 em inline-level, basta mudar o display*/
+            /*display: block;*/
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links de exemplos de caixa inline-level.</a>Vamos ver como tudo funciona</p>
+</body>
+</html>

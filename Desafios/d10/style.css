@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'ext';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(132, 225, 173);
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    margin: auto;
+    font-weight: normal;
+    width: 400px;
+    text-shadow: 4px 2px 4px black;
+    
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(25, 88, 53), rgb(60, 218, 131));
+    
+}
+
+nav {
+    text-align: left;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+main {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+}
+
+article > h1 {
+    font-family: 'ext', Times, serif;
+    color: #195835;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+article > p {
+    color: black;
+    text-align: justify;
+    text-indent: 30px;
+    font-weight: bold;
+}
+
+article > h2 {
+    background-image: linear-gradient(to right, rgb(196, 235, 213), rgb(255, 255, 255));
+    font-family: 'ext', Times, serif;
+    color: #195835;
+    font-size: 1.2em;
+    text-align: left;
+    padding-left: 10px;
+}   
+
+div#img01 > img {
+    width: 100%;
+}
+
+div#img02 > img {
+    width: 100%;
+}
+
+div#img03 > img {
+    width: 50%;
+    height: 50%;
+}
+
+div#vid01 {
+    background-color: #195835;
+    
+}
+
+div#vid01 > iframe {
+    margin: 20px 0px 10px 0px;
+    width: 650px;
+}
+article#final {
+    margin: 10px 0px 0px 0px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+article#final > aside > p {
+    background-color: rgb(47, 168, 102);
+    color: white;
+    text-align: left;
+    padding: 10px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+article#final p {
+    background-color: rgb(197, 235, 214);
+    margin: 0px;
+    padding: 10px;
+   
+}
+
+article#final ul {
+    list-style-type: "✔ ";
+    background-color: rgb(197, 235, 214);
+    color: black;
+    text-align: left;
+    margin: 0px;
+}
+
+article#final ul#ul01 {
+    width: 50%;
+    float: left;
+}
+
+footer {
+    background-color: #195835;
+    color: white;
+}

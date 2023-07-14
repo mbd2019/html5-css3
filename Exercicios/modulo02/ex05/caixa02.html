@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(214, 214, 214);
+            margin: 10px;
+        }
+
+        nav {
+            background-color: lightblue;
+            padding: 3px 3px 3px 0px;
+            margin-left: 0px;
+            border-radius: 10px;
+            box-shadow: 2px 4px 14px rgb(157, 157, 157);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        h1 {
+            box-shadow: 2px 1px 14px 6px rgba(0, 0, 17, 4);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            height: 500px;
+            padding: 10px;
+            margin: 10px 0px 10px 0px;
+            border-radius: 0px 10px;
+        }
+
+        section#noticias {
+            width: 50%;
+        }
+
+        article {
+            background-color: lightgray;
+            width: 50%;
+        }
+
+        article > aside {
+            background-color: rgb(161, 160, 160);
+        }
+
+        article > p {
+            padding: 0 10px 0 10px;
+            text-align: justify;
+        }
+
+        footer {
+            background-color: black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            color: white;
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+
+        <nav>
+            <a href="#">Notícias</a>
+            <a href="#">Vídeos</a>
+            <a href="#">Estudos</a>
+            <a href="#">Receitas</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esportes Políticas Tecnologia</p>
+        </section>
+        
+        <section id="notícias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores recusandae aperiam dolore, excepturi enim officiis cupiditate, illo ex, veniam vitae ipsam! Unde quas ullam quidem. Repellat mollitia beatae molestiae commodi!</p>
+                <aside>
+                    <p>Artigo escrito por Pseudônimo</p>
+                </aside>    
+            </article>
+
+            <article>
+                <h2>Notícias do Mundo afora</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis illum perferendis dolorem iste tempora officia dicta impedit ipsa possimus neque, nostrum unde, repellendus sint velit quia praesentium, explicabo ducimus est.</p>
+            </article>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Marcos B. Dantas</p>
+    </footer>
+</body>
+</html>

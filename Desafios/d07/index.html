@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+    <link rel="shortcut icon" href="../imagens/favicon-penguin-32.png" type="image/x-icon">
+</head>
+<body>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência. <img src="../imagens/Rosto maroto.png" alt="">
+    </p>
+    
+    <picture>
+        <source media="(max-width: 650px)" srcset="../d07/imagens/imagem-P.jpeg" type="image/jpeg">
+        <source media="(max-width: 950px)" srcset="../d07/imagens/imagem-M.jpeg" type="image/jpeg">
+        <img src="../d07/imagens/IMG-imagem-G.jpeg" alt="imagem grande">
+    </picture>
+</body>
+</html>
