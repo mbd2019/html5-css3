@@ -4,4 +4,4 @@
  Estou aprendendo a criar sites e agora estou vou gerenciar meus repositórios.
 
  Veja meu primeiro site de exemplo:
- <a href="Desafios/d10/index.html/index.html" target="_blank">Site</a>
+ <a href="Desafios/d10/index.html/" target="_blank">Site</a>
