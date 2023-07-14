@@ -4,4 +4,4 @@
  Estou aprendendo a criar sites e agora estou vou gerenciar meus repositórios.
 
  Veja meu primeiro site de exemplo:
- <a href="C:\Users\hunte\OneDrive\Documentos\Estudo\CursoVideo\html5-css3\Desafios\d10\index.html">Site</a>
+ <a href="C:\Users\hunte\OneDrive\Documentos\Estudo\CursoVideo\html5-css3\Desafios\d10\index.html" target="_blank">Site</a>
