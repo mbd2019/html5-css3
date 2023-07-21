@@ -13,11 +13,19 @@
         table {
             width: 500px;
             border-collapse: separate;
+            position: relative;
         }
 
         td,th {
             border: 1px solid black;
             padding: 10px;
+        }
+
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(8, 196, 196);
         }
 
         thead, tfoot {
