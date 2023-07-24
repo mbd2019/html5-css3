@@ -21,11 +21,11 @@
             font-weight: bold;
          }
 
-        tr, td {
+        tr, td, th {
             padding: 10px;
         }
 
-        td {
+        td, th {
             border: 1px solid blueviolet;
         }
 
@@ -42,14 +42,14 @@
         </caption>
         <thead>
             <tr>
-                <td>GRUPO</td>
-                <td>NOMES</td>
-                <td colspan="3">FILMES</td>
+                <th scope="col">GRUPO</th>
+                <th scope="col">NOMES</th>
+                <th colspan="3" scope="colgroup">FILMES</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td rowspan="3" id="M">Mulheres</td>
+                <th rowspan="3" id="M" scope="rowgroup">Mulheres</th>
                 <td>Ana Maria Santos</td>
                 <td>Alien</td>
                 <td>Ranbo</td>
@@ -69,7 +69,7 @@
             </tr>
 
             <tr>
-                <td rowspan="3" id="H">Homens</td>
+                <th rowspan="3" id="H" scope="rowgroup">Homens</th>
                 <td>Bruno Mendonça</td>
                 <td>Intocáveis</td>
                 <td>Amnésia</td>
