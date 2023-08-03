@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+:root {
+    --fundo: #FFF;
+    --titulos: #111;
+    --paragrafos: #5B5B5B;
+    --elemento: #A796FF;
+}
+
+.modoEscuro:root {
+    --fundo: #111;
+    --titulos: #FFF;
+    --paragrafos: #D3D3D3;
+    --elemento: #7357FF;
+}
+
+button {
+    background-color: var(--elemento);
+    color: var(--titulos);
+    outline: none;
+    border: none;
+    padding: 15px 60px;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+body {
+    background-color: var(--fundo);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--titulos);
+    text-align: center;
+    transition: all 1s ease;
+}
+
+h1, p {
+    max-width: 550px;
+    margin: 0 auto 10px;
+  }

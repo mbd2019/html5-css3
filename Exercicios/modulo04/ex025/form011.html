@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Trocando as cores de Fundo</h1>
+    <h2>Lorem ipsum dolor sit</br>amet consecteur</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+    <button id="modoEscuro">Modo Escuro</button>
+</body>
+
+<script>
+    const modoEscuro = document.querySelector("#modoEscuro") 
+    const html = document.querySelector("html")
+    modoEscuro.addEventListener("click", function() {
+        event.preventDefault()
+	    html.classList.toggle("modoEscuro");
+	});
+</script>
+
+</html>
